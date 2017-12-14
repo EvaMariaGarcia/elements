@@ -1,0 +1,303 @@
+/* -- CSS RESET -- */
+*{ padding: 0;
+  margin; 0;
+  font-size; 100%;
+  line-height: 1em;
+}
+body {
+width: 100%;
+max-width: 100%;
+    max-height: 100%;
+font-family: 'Sue Ellen Francisco', cursive;
+  margin: auto;
+  color: white;
+ background-color: #77B8CC;
+line-height: 1.8em;
+}
+
+
+/*--Links--*/
+
+
+/*--Headings--*/
+h1 {font-size: 5em;
+    text-align: center;
+padding-top: 1em;}
+
+h2 {font-size: 20px;
+    text-align: center; 
+}
+h3 {font-size: 5em;
+    text-align: center;
+    color: white;
+}
+h4 {font-size: 2em;
+    text-align: left;
+    margin: 40px;}
+
+/*--Paragraph--*/
+p, li {margin: 100px;
+line-height: 30px;
+font-size: 18px;
+letter-spacing: 2px;}
+
+p {font-size: 20px;
+    margin-left: 12em;
+    margin-right: 12em;
+line-height: 40px;
+letter-spacing: 2px;}
+
+
+/* --Divs-- */
+.sky {background-image: url(sky.png);
+ background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 70%;}
+
+
+
+/*--Images--*/ 
+img { display: block;
+margin: auto;
+    max-width: 100%;}
+
+/*---flipping Card--*/ 
+
+.Nd {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  width: 320px;
+  height: 450px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.Ce {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 320px;
+  height: 450px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.Pr {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  width: 320px;
+  height: 450px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.Gd {
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  width: 320px;
+  height: 450px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.La {
+  position: absolute;
+  top: 115%;
+  left: 42%;
+  width: 320px;
+  height: 450px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.Nd:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.Ce:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.Pr:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.Gd:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.La:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+
+.front,
+.backNd {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backNd {
+  background: #ED9C9D;
+  color: white;
+    transform: rotateY( 180deg );}
+
+.textNd {margin-top: 80px;}
+
+.front,
+.backCe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backCe {
+  background: #F49A2A ;
+  color: white;
+    transform: rotateY( 180deg );}
+
+.textCe {margin-top: 80px;}
+
+.front,
+.backPr {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backPr {
+  background: #8DC752 ;
+  color: white;
+    transform: rotateY( 180deg );}
+
+.textPr {margin-top: 80px;
+line-height: 50px;}
+
+.front,
+.backGd {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 100px;
+  color: #03446A;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backGd {
+  background: #9B918F ;
+  color: white;
+    transform: rotateY( 180deg );}
+
+.textGd {margin-top: 80px;
+line-height: 50px;}
+
+.front,
+.backLa {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backLa {
+  background: #C8CBD2 ;
+  color: white;
+    transform: rotateY( 180deg );}
+    
+.textLa {margin-top: 80px;
+line-height: 50px;}
+   
+
+/*--Footer--*/ 
+footer {
+    width: 100%; 
+color: white;
+text-align: center;}
+
+/*--tablet--*/
+@media (max-width: 1000px) {
+    
+    
+    
+  body{
+/*    background-color: #8080ff;*/
+    width: 100%;
+    
+    }
+
+    article p {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    
+  /*--smartphone--*/
+  @media (max-width: 500px) {
+    article p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+      nav ul {text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 10px;
+}
+nav ul li {
+  display: inline;
+  margin: 3px;
+
+  }
