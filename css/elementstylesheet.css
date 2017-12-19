@@ -17,6 +17,13 @@ line-height: 1.8em;
 
 
 /*--Links--*/
+a {color: white;
+text-decoration: none;}
+
+a:hover{color: black;
+    text-decoration: none;
+}
+
 
 
 /*--Headings--*/
@@ -24,7 +31,7 @@ h1 {font-size: 5em;
     text-align: center;
 padding-top: 1em;}
 
-h2 {font-size: 20px;
+h2 {font-size: 2em;
     text-align: center; 
 }
 h3 {font-size: 5em;
@@ -53,9 +60,6 @@ letter-spacing: 2px;}
  background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 70%;}
-
-
-
 /*--Images--*/ 
 img { display: block;
 margin: auto;
@@ -174,7 +178,7 @@ margin: auto;
   color: white;
     transform: rotateY( 180deg );}
 
-.textNd {margin-top: 80px;
+.textNd {margin-top: 5em;;
     line-height: 50px;
 margin-right: 25px;
 margin-left: 25px;}
@@ -198,7 +202,7 @@ margin-left: 25px;}
   color: white;
     transform: rotateY( 180deg );}
 
-.textCe {margin-top: 80px;
+.textCe {margin-top: 5em;
     line-height: 50px;
 margin-right: 25px;
 margin-left: 25px;}
@@ -222,7 +226,7 @@ margin-left: 25px;}
   color: white;
     transform: rotateY( 180deg );}
 
-.textPr {margin-top: 80px;
+.textPr {margin-top: 5em;
 line-height: 50px;
 margin-right: 25px;
 margin-left: 25px;}
@@ -246,7 +250,7 @@ margin-left: 25px;}
   color: white;
     transform: rotateY( 180deg );}
 
-.textGd {margin-top: 80px;
+.textGd {margin-top: 5em;
 line-height: 50px;
 margin-right: 25px;
 margin-left: 25px;}
@@ -270,7 +274,7 @@ margin-left: 25px;}
   color: white;
     transform: rotateY( 180deg );}
     
-.textLa {margin-top: 80px;
+.textLa {margin-top: 5em;
 line-height: 50px;
 margin-right: 25px;
 margin-left: 25px;}
