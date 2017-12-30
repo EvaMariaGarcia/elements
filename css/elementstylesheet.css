@@ -60,10 +60,16 @@ letter-spacing: 2px;}
  background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 70%;}
+
 /*--Images--*/ 
 img { display: block;
 margin: auto;
     max-width: 100%;}
+
+.home {
+    position: absolute;
+    top: 45px;
+    left: 50px;}
 
 /*---flipping Card--*/ 
 

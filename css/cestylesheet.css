@@ -62,6 +62,10 @@ margin: auto;
 
 .ce {margin-left: 2em;}
 
+.home {
+    position: absolute;
+    top: 45px;
+    left: 50px;}
 /*--Footer--*/ 
 footer {width: 100%; 
 color: white;
