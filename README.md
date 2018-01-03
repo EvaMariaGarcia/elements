@@ -1,4 +1,4 @@
-# elements
+# Elements Website
 
 
-- [Elements](https://evamariagarcia.github.io/elements/index.html) 
+- [Rare Earth Elements](https://evamariagarcia.github.io/elements/index.html) 
