@@ -61,6 +61,8 @@ letter-spacing: 2px;}
     background-position: center;
     padding-bottom: 70%;}
 
+.elements {list-style-type: none;}
+
 /*--Images--*/ 
 img { display: block;
 margin: auto;
@@ -82,6 +84,7 @@ margin: auto;
   margin: -150px;
   float: left;
   perspective: 500px;
+list-style-type: none;
 }
 
 .Ce {
@@ -93,6 +96,7 @@ margin: auto;
   margin: -150px;
   float: left;
   perspective: 500px;
+    list-style-type: none;
 }
 
 .Pr {
@@ -104,6 +108,7 @@ margin: auto;
   margin: -150px;
   float: left;
   perspective: 500px;
+    list-style-type: none;
 }
 
 .Gd {
@@ -115,6 +120,7 @@ margin: auto;
   margin: -150px;
   float: left;
   perspective: 500px;
+    list-style-type: none;
 }
 
 .La {
@@ -126,6 +132,7 @@ margin: auto;
   margin: -150px;
   float: left;
   perspective: 500px;
+    list-style-type: none;
 }
 
 
